@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Mosaddek">
+  <link rel="shortcut icon" type="image/png" href="/imgs/favicon.png" />
+
+  <title>Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/dist/vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/dist/vendors/bootstrap-submenu/css/bootstrap-submenu.min.css">
+
+  <link rel="stylesheet" href="assets/dist/vendors/photoswipe/photoswipe.min.css">
+  <link rel="stylesheet" href="assets/dist/vendors/photoswipe/default-skin/default-skin.min.css">
+
+  <link rel="stylesheet" href="assets/dist/vendors/justifiedGallery/css/justifiedGallery.min.css">
+
+  <link rel="stylesheet" href="assets/fonts/helloicon/helloicon.css">
+  <link rel="stylesheet" href="assets/dist/css/styles.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="m-t-xxl m-b-xl">
+    <div class="container">
+      <div class="col-sm-12 text-center m-t">
+        <a href="index.html" class="logo"><img class="" src="assets/imgs/logo.png" alt="" /></a>
+      </div>
+      <div class="clearfix"></div>
+      <div class="row m-t">
+        <div class="navbar-header">
+          <a class="btn text-u-c text-sm l-s-3x visible-xs" type="button" data-toggle="collapse" data-target=".mainNav">
+            <img class="" src="assets/imgs/bar-icon.svg" style="width: 20px;" alt="" /> menu
+          </a>
+        </div>
+        <div class="collapse navbar-collapse mainNav">
+          <ul class="nav navbar-nav navbar-center text-u-c l-s-3x text-sm">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" data-submenu="" data-hover="dropdown">Gallery<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="justified.html">Justified</a></li>
+                <li class="dropdown-submenu">
+                  <a href="equalizer.html" tabindex="0">Equalizer</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="equalizer_col_2.html" tabindex="0">Equalizer Grid 2</a></li>
+                    <li><a href="equalizer_col_3.html" tabindex="0">Equalizer Grid 3</a></li>
+                    <li><a href="equalizer.html" tabindex="0">Equalizer Grid 4</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a tabindex="0">Masonry</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="masonry_col_2.html" tabindex="0">Masonry Grid 2</a></li>
+                    <li><a href="masonry_col_3.html" tabindex="0">Masonry Grid 3</a></li>
+                    <li><a href="masonry.html" tabindex="0">Masonry Grid 4</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="journal.html">Journal</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--/ header -->
+
+  <!--contact -->
+  <div class="container">
+    <div class="row m-b-xxl">
+      <div class="col-md-8 col-md-offset-2">
+        <img class="m-b-xl" src="assets/imgs/contact.jpg" alt="">
+        <div class=" text-center m-b-xxl">
+          <h2 class="m-b h1 font-semi-bold">Say Hello</h2>
+          <h6 class="m-b">Feel free to drop a line to me</h6>
+        </div>
+        <form class="contact">
+          <div class="col-md-6">
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Name" name="name" data-error="You must enter name" required="">
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="form-group has-error- has-danger-">
+                  <input type="email" class="form-control" placeholder="Email" name="email" data-error="Invalid email address" required="">
+                  <!--<div class="help-block with-errors"><ul class="list-unstyled"><li>You must enter email</li></ul></div>-->
+              </div>
+          </div>
+          <div class="col-md-12">
+              <div class="form-group has-error- has-danger- ">
+                  <textarea class="form-control" rows="4" placeholder="Message" name="message" data-error="You must enter message" required=""></textarea>
+                  <!--<div class="help-block with-errors"><ul class="list-unstyled"><li>You must enter message</li></ul></div>-->
+              </div>
+              <button type="submit" class="btn btn-contact">Send Message</button>
+          </div>
+      </form>
+      </div>
+    </div>
+  </div>
+  <!--/ contact -->
+
+
+
+  <!-- footer -->
+  <div class="footer text-center wrapper-xxl">
+    © Copyright 2021 : All Rights Reserved. Design And Developed By <a href="http://thevectorlab.net/"
+      target="_blank">VectorLab</a>
+  </div>
+  <!--/ footer -->
+
+
+  <script src="assets/dist/js/plugins.min.js"></script>
+  <script src="assets/dist/js/scripts.js"></script>
+
+</body>
+
+</html>

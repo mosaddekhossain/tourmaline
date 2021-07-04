@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'helloicon';
+    src:    url('fonts/helloicon.eot?tb7w9m');
+    src:    url('fonts/helloicon.eot?tb7w9m#iefix') format('embedded-opentype'),
+        url('fonts/helloicon.ttf?tb7w9m') format('truetype'),
+        url('fonts/helloicon.woff?tb7w9m') format('woff'),
+        url('fonts/helloicon.svg?tb7w9m#helloicon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hi {
+  display: inline-block;
+  font: normal normal normal 1.3857em HelloIcon;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*background-color: #aaa;*/
+}
+
+.hi {
+  position: relative;
+  top: 0.16em;
+}
+
+.hi-more:before {
+    content: "\e900";
+}
+.hi-camera:before {
+    content: "\e901";
+}
+.hi-aperture:before {
+    content: "\e902";
+}
+.hi-focal-length:before {
+    content: "\e903";
+}
+.hi-shutter-speed:before {
+    content: "\e904";
+}
+.hi-iso:before {
+    content: "\e905";
+}
+.hi-love:before {
+    content: "\e907";
+}
+.hi-add:before {
+    content: "\e908";
+}
+.hi-check:before {
+    content: "\e909";
+}
+.hi-close:before {
+    content: "\e906";
+}
